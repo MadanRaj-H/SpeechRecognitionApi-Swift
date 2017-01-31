@@ -14,6 +14,7 @@
 		C8EFF91B1E410A1100336575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EFF9191E410A1100336575 /* LaunchScreen.storyboard */; };
 		C8EFF9261E410A1200336575 /* SpeechRecognitionApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EFF9251E410A1200336575 /* SpeechRecognitionApiTests.swift */; };
 		C8EFF9311E410A1200336575 /* SpeechRecognitionApiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EFF9301E410A1200336575 /* SpeechRecognitionApiUITests.swift */; };
+		C8EFF9421E410BD600336575 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EFF9411E410BD600336575 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C8EFF92C1E410A1200336575 /* SpeechRecognitionApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechRecognitionApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EFF9301E410A1200336575 /* SpeechRecognitionApiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionApiUITests.swift; sourceTree = "<group>"; };
 		C8EFF9321E410A1200336575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EFF9411E410BD600336575 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,10 @@
 		C8EFF90F1E410A1100336575 /* SpeechRecognitionApi */ = {
 			isa = PBXGroup;
 			children = (
+				C8EFF9401E410A2800336575 /* Model */,
+				C8EFF93F1E410A2300336575 /* View */,
+				C8EFF93E1E410A1E00336575 /* Controller */,
 				C8EFF9101E410A1100336575 /* AppDelegate.swift */,
-				C8EFF9121E410A1100336575 /* ViewController.swift */,
 				C8EFF9141E410A1100336575 /* Main.storyboard */,
 				C8EFF9171E410A1100336575 /* Assets.xcassets */,
 				C8EFF9191E410A1100336575 /* LaunchScreen.storyboard */,
@@ -123,6 +127,29 @@
 				C8EFF9321E410A1200336575 /* Info.plist */,
 			);
 			path = SpeechRecognitionApiUITests;
+			sourceTree = "<group>";
+		};
+		C8EFF93E1E410A1E00336575 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8EFF9121E410A1100336575 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C8EFF93F1E410A2300336575 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8EFF9411E410BD600336575 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C8EFF9401E410A2800336575 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EFF9421E410BD600336575 /* CircleButton.swift in Sources */,
 				C8EFF9131E410A1100336575 /* ViewController.swift in Sources */,
 				C8EFF9111E410A1100336575 /* AppDelegate.swift in Sources */,
 			);
